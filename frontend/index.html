@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+        input, button {
+            margin-bottom: 10px;
+            text-align: center;
+            
+        }
+        button {
+            background-color: rgb(0, 79, 128);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form id="saveTransaction">
+            <h1>Mi Evidencia</h1>
+            <div>
+                <label for="transactionDescripcion">Descripcion</label>
+                <input id="transactionDescripcion" placeholder="Descripcion">
+            </div>
+            <div>
+                <label for="transactionPrice">Price</label>
+                <input id="transactionPrice" placeholder="Precio">
+            </div>
+            <div>
+                <button>Guardar transaccion</button>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
+
